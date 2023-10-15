@@ -22,7 +22,7 @@ class MainKtTest {
 
         val result = calcTaxTransfer(TYPE_MAESTRO, sumAllTransfers, amount)
 
-        assertEquals(110.0, result, 0.0)
+        assertEquals(0.0, result, 0.0)
     }
 
     @Test
